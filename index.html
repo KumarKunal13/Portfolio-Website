@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>3D Interactive Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="#home">Home</a>
+            <a href="#portfolio">Portfolio</a>
+            <a href="#about">About</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <section id="home">
+        <div class="intro">
+            <h1>Welcome to My Portfolio</h1>
+            <p>Explore my projects and get to know more about my journey.</p>
+        </div>
+        <div id="3d-container"></div>
+    </section>
+
+    <section id="portfolio">
+        <h2>Portfolio</h2>
+        <div class="portfolio-grid">
+            <div class="card">
+                <h3>Project 1</h3>
+                <p>A short description of the project.</p>
+            </div>
+            <div class="card">
+                <h3>Project 2</h3>
+                <p>A short description of the project.</p>
+            </div>
+            <div class="card">
+                <h3>Project 3</h3>
+                <p>A short description of the project.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="about">
+        <h2>About Me</h2>
+        <p>
+            I am a web developer passionate about creating interactive and visually appealing
+            web experiences. This portfolio demonstrates my skills in 3D graphics, modern UI design,
+            and web technologies.
+        </p>
+    </section>
+
+    <section id="contact">
+        <h2>Contact</h2>
+        <form>
+            <input type="text" placeholder="Your Name" required>
+            <input type="email" placeholder="Your Email" required>
+            <textarea placeholder="Your Message" rows="5" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>© 2024 My Portfolio | Made with ❤️</p>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/0.153.0/three.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
